@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="339c7727-69cf-4470-9041-4140fa805131" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/CopyPasteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/OrderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/RedoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/SaveController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/SelectImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/TranslationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/UndoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/ZoomInController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/ZoomOutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyNothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyScale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyTranslation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/ImageSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/Perspective.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/view/MainView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/view/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/view/PersonalImageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/view/PerspectiveView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="339c7727-69cf-4470-9041-4140fa805131" name="Changes" comment="Basic class creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/etsmtl/log121/lab05/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/OrderManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +74,7 @@
       <updated>1709317641953</updated>
       <workItem from="1709317643088" duration="386000" />
       <workItem from="1709318167032" duration="17000" />
-      <workItem from="1710967561471" duration="3981000" />
+      <workItem from="1710967561471" duration="5720000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -112,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709317945239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic class creation">
+      <option name="closed" value="true" />
+      <created>1710971837004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710971837004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Basic class creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic class creation" />
   </component>
 </project>

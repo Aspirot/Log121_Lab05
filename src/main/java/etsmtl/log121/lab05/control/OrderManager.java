@@ -6,7 +6,7 @@ import etsmtl.log121.lab05.model.Perspective;
 import java.util.Stack;
 
 public class OrderManager {
-    private OrderManager instance;
+    private static OrderManager instance;
     private Stack<Command> topViewCommandStack;
     private Stack<Command> bottomViewCommandStack;
     private Memento topViewMemento;
@@ -21,10 +21,10 @@ public class OrderManager {
         copiedPerspective = null;
     }
 
-    public OrderManager getInstance(){
-        if(this.instance != null)
-            this.instance = new OrderManager();
-        return this.instance;
+    public static OrderManager getInstance(){
+        if(instance != null)
+            instance = new OrderManager();
+        return instance;
     }
 
     public void addCommandToStack(Command command){
