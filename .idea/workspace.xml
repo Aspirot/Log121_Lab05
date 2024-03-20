@@ -4,11 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="339c7727-69cf-4470-9041-4140fa805131" name="Changes" comment="" />
+    <list default="true" id="339c7727-69cf-4470-9041-4140fa805131" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/CopyPasteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/OrderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/RedoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/SaveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/SelectImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/TranslationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/UndoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/ZoomInController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/control/ZoomOutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyNothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyScale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/CopyTranslation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/ImageSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/Perspective.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/model/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/view/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/view/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/view/PersonalImageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/view/PerspectiveView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etsmtl/log121/lab05/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/etsmtl/log121/lab05/hello-view.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,9 +59,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2d69PmH8pytOfK0Up00DowOSgWj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,8 +72,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/denis/OneDrive - ETS/Documents/Java/Lab05",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -54,11 +100,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709317641953</updated>
-      <workItem from="1709317643088" duration="4000" />
+      <workItem from="1709317643088" duration="386000" />
+      <workItem from="1709318167032" duration="17000" />
+      <workItem from="1710967561471" duration="3981000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1709317945239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709317945239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
